@@ -20,7 +20,7 @@ body{
     --pale-blue: hsl(225, 100%, 94%);
     --bright-blue: hsl(245, 75%, 52%);
 
-    --bg-color:#F8F9FE;
+    --bg-color:hsl(255,100%,93%,1);
     
     /*Neutral*/
     
@@ -173,4 +173,10 @@ body{
 
 .card-payment a:hover{
     color: var(--dark-blue);
+}
+
+@media (width<450px) {
+    html{
+        transform: scale(0.5);
+    }
 }
